@@ -1,25 +1,36 @@
 # ghostbuster
-Any2Any document converter
+<p>Any2Any document converter</p>
 
-The main goal of this project to create a library to convert any file format to any other file format.
-It might use a common/base format, such as XPS file
+<p>The main goal of this project to create a library to convert any file format to any other file format.
+It might use a common/base format, such as XPS file</p>
 
-Example:
-XPS as a target format:
-PS -> XPS
-PCL -> XPS
-PDF -> XPS
-
+<p><b>Example:</b></p>
+<p><i>XPS as a target format:</i></p>
+<p>
+PS -> XPS <br />
+PCL -> XPS <br />
+PDF -> XPS <br />
+</p>
+<p><i>
 XPS as a source format:
-XPS -> PS
-XPS -> PCL
-XPS -> PDF
+</i></p>
+<p>
+XPS -> PS <br />
+XPS -> PCL <br />
+XPS -> PDF <br />
+</p>
 
-XPS as a mediator:
-PS -> PDF: will be executed as: PS -> XPS -> PDF
-and so on...
+<p><i>XPS as a mediator:</i></p>
+<p>
+PS -> PDF: will be executed as: PS -> XPS -> PDF <br />
+and so on... <br />
+</p>
 
+<p>
 So, the first thing is to build the models of XPS, or a graphics abstraction layer
+</p>
 
------------------------------
-Happy to accept any ideas :)
+<p>
+----------------------------- <br />
+Happy to accept any ideas :) <br />
+</p>
