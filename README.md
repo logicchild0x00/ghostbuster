@@ -7,9 +7,10 @@ It might use a common/base format, such as XPS file</p>
 <p><b>Example:</b></p>
 <p><i>XPS as a target format:</i></p>
 <p>
-PS -> XPS <br />
-PCL -> XPS <br />
-PDF -> XPS <br />
+PS   -> XPS <br />
+PCL  -> XPS <br />
+PDF  -> XPS <br />
+DOCX -> XPS <br />
 </p>
 <p><i>
 XPS as a source format:
@@ -18,6 +19,7 @@ XPS as a source format:
 XPS -> PS <br />
 XPS -> PCL <br />
 XPS -> PDF <br />
+XPS -> DOCX <br />
 </p>
 
 <p><i>XPS as a mediator:</i></p>
@@ -28,6 +30,15 @@ and so on... <br />
 
 <p>
 So, the first thing is to build the models of XPS, or a graphics abstraction layer
+</p>
+
+<p>
+  <b>Programming languages:</b> <br />
+    <ul>
+      <li><i>C#: .Net Frameworkd 4.7.2</i>; this will be the main branch. As it comes with Windows(R); no need for installation</li>
+      <li><i>C#: .Net 6/7/...</i>; these will be in other branches. Which what I prefer, but it will be planned later</li>
+      <li><i>C++</i>: If needed</li>
+    </ul>
 </p>
 
 <p>
